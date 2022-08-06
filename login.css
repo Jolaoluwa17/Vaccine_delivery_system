@@ -1,0 +1,52 @@
+body {
+  background-image: url("/Vaccine_delivery_system/pictures/jaromir-kalina-vZaMlUZXDUM-unsplash.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+.login_form {
+  height: 400px;
+  width: 40%;
+  background-color: #DBF9F0;
+  margin-left: 28%;
+  margin-top: 100px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.login_form input {
+  width: 98%;
+  border-radius: 6px;
+  border: none;
+  padding: 7px;
+  padding-left: 8px;
+  margin-top: 4px;
+}
+.form_title {
+  margin-left: 40%;
+  width: 60%;
+}
+.inline_text {
+  margin-left: 15px !important;
+}
+.login_form button {
+  margin-top: 20px;
+  margin-left: 20%;
+  width: 60%;
+  border-radius: 30px;
+  background-color: #19535F;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+}
+.login_form button:hover{
+    background-color: #1c6877 ;
+}
+.info {
+  color: grey;
+  margin-top: 30px;
+}
+.info a{
+    text-decoration: none;
+    color:#19535F;
+}
