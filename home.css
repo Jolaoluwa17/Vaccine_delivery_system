@@ -1,0 +1,118 @@
+.navbar {
+  background-color: #19535f;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+header * {
+  display: inline;
+}
+header li a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
+.main {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+.main form {
+  height: 490px;
+  width: 500px;
+  background-color: #dbf9f0;
+  margin-left: 5px;
+  /* margin-top: 4px; */
+  padding: 20px;
+  border-radius: 20px;
+}
+.text_input {
+  width: 80%;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+}
+.begin-btn {
+  /* margin-top: 20px; */
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 30px;
+  background-color: #19535f;
+  border: none;
+  padding: 8px;
+  color: white;
+}
+.new {
+  display: flex;
+  flex-direction: row;
+}
+.secondform {
+  margin-left: 80px;
+}
+.loader {
+  border-top: 10px solid #7d2e68;
+  border-right: 10px solid #251351;
+  border-bottom: 10px solid #7d2e68;
+  border-left: 10px solid #251351;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin-left: 42%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.secondform .test_sample {
+  margin-left: 100px;
+}
+.secondform {
+  height: 490px;
+  width: 500px;
+  background-color: #dbf9f0;
+  margin-left: 50px;
+  margin-top: 5px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.secondform h3 {
+  margin-top: 35%;
+  margin-left: 33%;
+}
+myNumber {
+  font-size: 25px;
+  color: black;
+}
+.randomNumber {
+  margin-top: 20px;
+  /* font-weight: 700; */
+}
+.result {
+  margin-left: 37%;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.upload-btn {
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 30px;
+  background-color: #19535f;
+  border: none;
+  padding: 8px;
+  color: white;
+  margin-top: 30px;
+}

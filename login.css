@@ -50,3 +50,6 @@ body {
     text-decoration: none;
     color:#19535F;
 }
+.info a:hover{
+    color: blue;
+}

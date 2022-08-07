@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/Vaccine_delivery_system/home.css" />
+    <script src="home.js"></script>
+  </head>
+  <body onload="defaultDate()">
+    <header class="navbar">
+      <nav class="navbar-btn">
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">HOW IT WORKS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>Welcome to the <br />COVID-19 ALL IN ONE VACCINE DELIVERY SYSTEM.</h1>
+      <div class="new">
+      <div>
+      <form action="">
+        <p class="title">
+            <h2>Register User</h2>
+        </p>
+        <p>
+          <label for="firstname">First Name</label> <br />
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="John"
+            class="text_input"
+            required
+          />
+        </p>
+        <p>
+          <label for="lastname">Last Name</label> <br />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Doe"
+            class="text_input"
+            required
+          />
+        </p>
+        <p>
+          <label for="gender">Gender</label> <br />
+          <label for="male">Male</label
+          ><input type="radio" id="gender" name="gender" />
+          <label for="female">Female</label
+          ><input type="radio" id="gender" name="gender" />
+        </p>
+        <p>
+            <label for="date">Date</label>
+            <input type="date" id="date" disabled>
+        </p>
+        <p>
+          <label for="phonenumber">Phone Number</label> <br />
+          <input
+            type="tel"
+            name="phonenumber"
+            id="phonenumber"
+            placeholder="hello"
+            class="text_input"
+            required
+          />
+        </p>
+        <p>
+          <label for="genotype">Genotype</label><br />
+          <select name="genotype" id="genotype">
+            <option value=""></option>
+            <option value="aa">AA</option>
+            <option value="oo">OO</option>
+            <option value="ao">AO</option>
+            <option value="bb">BB</option>
+            <option value="bo">BO</option>
+            <option value="ab">AB</option>
+          </select>
+        </p>
+        <p>
+          <label for="genotype">Blood group</label><br />
+          <select name="genotype" id="genotype">
+            <option></option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="ab">AB</option>
+            <option value="o">O</option>
+          </select>
+        </p>
+        <button class="begin-btn" onclick="visible()">Begin Test</button>
+      </form>
+    </div>
+
+
+
+
+    <div class="secondform">
+        
+            <h3 class="Test_sample" id="test" style="display: none;">Testing in progress...</h3>
+            <div class="loader" id="box" style="display:none;"></div>
+            <div id="result" class="result"></div>
+            <div id="myNumber" class="randomNumber"></div>
+            <div id="vaccine" class="randomNumber"></div>
+            <div class="randomNumber" id="administer"></div>
+            <button class="upload-btn" id="upload-btn" style="display: none;">Upload Result</button>
+    </div>
+  
+</div>
+    </main>
+    <!-- <script>
+        document.getElementById("myNumber").innerHTML = Math.floor(Math.random() * 2);
+    </script> -->
+  </body>
+</html>
