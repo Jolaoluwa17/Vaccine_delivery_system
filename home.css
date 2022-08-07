@@ -116,3 +116,22 @@ myNumber {
   color: white;
   margin-top: 30px;
 }
+.logout_btn a {
+  background-color: #ff3259;
+  color: white;
+  padding: 9px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logout_btn a:hover {
+  background-color: #d32747;
+}
+.register {
+  background-color: #5a8f7b;
+  padding: 9px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* color: black; */
+}

@@ -3,21 +3,39 @@
   <head>
     <title>Covid-19 administering system</title>
     <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="login_form">
       <h2 class="form_title">LOGIN</h2>
-      <div style="float: left; width: 35%; margin-right: 13px;" ><hr /></div>
+      <div style="float: left; width: 35%; margin-right: 13px"><hr /></div>
       <div style="float: right; width: 39%"><hr /></div>
       <p class="inline_text">Log in with Email</p>
       <form action="/">
         <p>
-          <label for="username">Username</label> <br />
-          <input type="text" id="username" name="username" placeholder="Jolaoluwa_42" required />
+          <label for="username"
+            ><i class="fa fa-user-circle" aria-hidden="true" style="font-size: 20px;"></i
+          ></label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Jolaoluwa_42"
+            required
+          />
         </p>
         <p>
-          <label for="password">Password</label> <br />
-          <input type="password" id="lastname" name="password" placeholder="******" required />
+          <label for="password"><i class="fa fa-unlock-alt" aria-hidden="true" style="font-size: 20px;"></i></label>
+          <input
+            type="password"
+            id="lastname"
+            name="password"
+            placeholder="******"
+            required
+          />
         </p>
         <button onclick="window.open('home.html','_blank')">Log in</button>
       </form>

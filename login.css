@@ -14,12 +14,13 @@ body {
   border-radius: 20px;
 }
 .login_form input {
-  width: 98%;
+  width: 90%;
   border-radius: 6px;
   border: none;
   padding: 7px;
   padding-left: 8px;
   margin-top: 4px;
+  margin-left: 4px;
 }
 .form_title {
   margin-left: 40%;

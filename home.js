@@ -1,11 +1,20 @@
 function visible() {
+    var w = document.getElementById("covid_sample");
     var x = document.getElementById("box");
     var y = document.getElementById("test");
     var z = document.getElementById("upload-btn");
  // Note: 2 minutes in milliseconds is 120000   
-    if (x.style.display === "none" && y.style.display === "none") {
+    
+    if (x.style.display === "none" && y.style.display === "none" && w.style.display === "none") {
+       
+        w.style.display ="block";
+       
+       setTimeout(function(){
+       w.style.display = "none";
+    
       x.style.display = "block";
       y.style.display = "block";
+    }, 3000) 
       setTimeout(function() {
         x.style.display = "none";
         y.style.display = "none";

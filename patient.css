@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #19535f;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+header * {
+  display: inline;
+}
+header li a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+}
+.logout_btn a {
+  background-color: #ff3259;
+  color: white;
+  padding: 9px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logout_btn a:hover {
+  background-color: #d32747;
+}
+.patients {
+  background-color: #5a8f7b;
+  padding: 9px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+.main .leftside {
+    margin-top: 50px !important;
+  height: 490px;
+  width: 500px;
+  background-color: #dbf9f0;
+  margin-left: 5px;
+  /* margin-top: 4px; */
+  padding: 20px;
+  border-radius: 20px;
+}
+.new {
+  display: flex;
+  flex-direction: row;
+}
+.main .rightside {
+    margin-top: 50px !important;
+  height: 490px;
+  width: 500px;
+  background-color: #dbf9f0;
+  margin-left: 40px;
+  /* margin-top: 4px; */
+  padding: 20px;
+  border-radius: 20px;
+}
+hr{
+    background-color: black;
+    height: 1px;
+    border: none;
+}
